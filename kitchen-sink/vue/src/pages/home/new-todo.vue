@@ -29,8 +29,9 @@
     </div>
 </template>
 <script>
-import { f7Fab, f7Label, f7Input, f7Row,f7Col,f7Button, f7Block, f7Icon} from 'framework7-vue'
+import { f7Fab, f7Label, f7Input, f7Row,f7Col,f7Button, f7Block, f7Icon, f7List,f7ListItem, f7BlockTitle} from 'framework7-vue'
 export default {
+    name:'new-todo',
     data(){
     return{
       holderTitle:"",
@@ -44,7 +45,7 @@ export default {
         }
     },
     components:{
-        f7Fab, f7Label, f7Input, f7Row,f7Col,f7Button, f7Block, f7Icon
+        f7Fab, f7Label, f7Input, f7Row,f7Col,f7Button, f7Block, f7Icon, f7List,f7ListItem, f7BlockTitle
     }
 }
 </script>
